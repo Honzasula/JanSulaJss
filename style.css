@@ -178,10 +178,10 @@ button {
 }
 .carousel2 {
     position: absolute;
-    right: 15em;
+    left: 3em;
     width: 40em;
     height: 22em;
-    margin-top:120px;
+    margin-top:580px;
     border: 3px #333 solid;
     display: flex;
     justify-content: left;

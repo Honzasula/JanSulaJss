@@ -158,18 +158,18 @@ lightbox.addEventListener('click', e => {
 })
 
 var span = document.getElementsByTagName('span')
-const div = document.getElementsByClassName('')
+let coc = document.getElementsByClassName('car')
 var l = 0;
 
 span[1].addEventListener('click', e => {
     l++;
     console.log("l+")
     console.log(l)
-        if (l=0) {div.style.transform = "translateX(-400px)"}
-        if (l=1) {div.style.transform = "translateX(-800px)";}
-        if (l=2) {div.style.transform = "translateX(-1400px)";}
-        if (l=3) {div.style.transform = "translateX(-2220px)";}
-        if (l=4) {div.style.transform = "translateX(-2700px)";}
+        if (l=0) {coc.style.transform = "translateX(-800px"}
+        if (l=1) {div = "translateX(-800px)"}
+        if (l=2) {div = "translateX(-1400px)"}
+        if (l=3) {div = "translateX(-2220px)"}
+        if (l=4) {div = "translateX(-2700px)"}
         if (l > 4) {l =4} 
 
     }
@@ -179,9 +179,9 @@ span[0].onclick = () =>{
     console.log("l-")
     for(var i of div){
         if (l==0) {i.style.left = "0px";}
-        if (l==1) {i.style.left = "-740px";}
-        if (l==2) {i.style.left = "-1480px";}
-        if (l==3) {i.style.left = "-2220px";}
+        if (l==1) {i.style.left = "-740px"}
+        if (l==2) {i.style.left = "-1480px"}
+        if (l==3) {i.style.left = "-2220px"}
         if (l < 0) {l =0} 
     }
 
